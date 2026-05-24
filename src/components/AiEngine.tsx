@@ -24,7 +24,7 @@ export function AiEngine() {
             </h2>
             <PromptCycler />
             <p className="text-zinc-400 max-w-md text-pretty">
-              Our engine crafts unique forbidden words for every prompt — calibrated to be just hard
+              Our engine crafts unique forbidden words for every prompt calibrated to be just hard
               enough to make you scream. No two games ever feel the same.
             </p>
           </div>
