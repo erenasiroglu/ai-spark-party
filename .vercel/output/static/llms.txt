@@ -1,7 +1,0 @@
-# Tadado
-
-> Tadado is an AI-powered social word guessing game. Players explain words to teammates without using forbidden words, while AI generates infinite custom decks for any vibe or theme.
-
-## Pages
-
-- [Home](/): Overview of Tadado, how the AI generates decks, features, and how to play.
