@@ -7,6 +7,7 @@ import { FeatureBento } from "@/components/FeatureBento";
 import { Testimonials } from "@/components/Testimonials";
 import { FinalCta } from "@/components/FinalCta";
 import { Footer } from "@/components/Footer";
+import { APP_STORE_URL, SITE_URL } from "@/lib/site";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -24,11 +25,11 @@ export const Route = createFileRoute("/")({
           "AI-generated party decks for the group chat era. Explain without saying. Laugh until you can't.",
       },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "https://ai-spark-party.lovable.app/" },
+      { property: "og:url", content: `${SITE_URL}/` },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
-      { rel: "canonical", href: "https://ai-spark-party.lovable.app/" },
+      { rel: "canonical", href: `${SITE_URL}/` },
     ],
     scripts: [
       {
@@ -38,10 +39,11 @@ export const Route = createFileRoute("/")({
           "@type": "SoftwareApplication",
           name: "Tadado",
           applicationCategory: "GameApplication",
-          operatingSystem: "iOS, Android, Web",
+          operatingSystem: "iOS",
           description:
             "Tadado is an AI-powered social word guessing game that generates infinite decks of forbidden-word cards for parties and friend groups.",
-          url: "https://ai-spark-party.lovable.app/",
+          url: `${SITE_URL}/`,
+          downloadUrl: APP_STORE_URL,
           offers: {
             "@type": "Offer",
             price: "0",

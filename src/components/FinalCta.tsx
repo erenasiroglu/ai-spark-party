@@ -1,5 +1,6 @@
 import party from "@/assets/party-moment.jpg";
 import { useReveal } from "@/hooks/useReveal";
+import { APP_STORE_URL } from "@/lib/site";
 
 export function FinalCta() {
   const ref = useReveal<HTMLDivElement>();
@@ -27,10 +28,12 @@ export function FinalCta() {
             </p>
             <div className="mt-10 flex flex-wrap gap-3">
               <a
-                href="#"
+                href={APP_STORE_URL}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-primary text-white px-6 py-3.5 rounded-full text-sm font-semibold hover:scale-[0.98] transition-transform"
               >
-                Start a Game
+                Download on App Store
                 <span className="font-mono text-xs opacity-80">→</span>
               </a>
               <a

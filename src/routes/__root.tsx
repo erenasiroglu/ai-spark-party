@@ -9,6 +9,8 @@ import {
 } from "@tanstack/react-router";
 
 import appCss from "../styles.css?url";
+import favicon from "../assets/favicon.ico?url";
+import { SITE_URL } from "@/lib/site";
 
 function NotFoundComponent() {
   return (
@@ -78,11 +80,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:title", content: "Tadado" },
       { property: "og:description", content: "Tadado is an AI-powered social word guessing game for multiplayer fun." },
       { property: "og:type", content: "website" },
+      { property: "og:url", content: `${SITE_URL}/` },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "Tadado" },
       { name: "twitter:description", content: "Tadado is an AI-powered social word guessing game for multiplayer fun." },
     ],
     links: [
+      { rel: "icon", href: favicon, type: "image/x-icon" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {

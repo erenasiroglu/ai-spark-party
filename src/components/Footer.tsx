@@ -1,10 +1,12 @@
+import tadoHeader from "@/assets/tado-header.png";
+
 export function Footer() {
   return (
     <footer className="py-24 border-t border-border">
       <div className="mx-auto max-w-7xl px-6 grid md:grid-cols-4 gap-12">
         <div className="col-span-2">
           <div className="flex items-center gap-2 mb-6">
-            <div className="size-6 bg-primary rounded-md" />
+            <img src={tadoHeader} alt="Tadado" className="size-6 object-contain" />
             <span className="font-extrabold text-lg tracking-tighter uppercase">Tadado</span>
           </div>
           <p className="text-foreground/50 text-sm max-w-xs">

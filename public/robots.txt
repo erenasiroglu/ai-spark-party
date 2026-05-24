@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ai-spark-party.lovable.app/sitemap.xml
+Sitemap: https://tadado.app/sitemap.xml

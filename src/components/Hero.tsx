@@ -1,4 +1,5 @@
 import { TadadoCard } from "./TadadoCard";
+import { APP_STORE_URL } from "@/lib/site";
 
 export function Hero() {
   return (
@@ -18,10 +19,12 @@ export function Hero() {
           </p>
           <div className="flex flex-wrap gap-3 animate-reveal [animation-delay:340ms]">
             <a
-              href="#play"
+              href={APP_STORE_URL}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-foreground text-background px-6 py-3.5 rounded-full text-sm font-semibold hover:bg-primary transition-colors"
             >
-              Start a Game
+              Download on App Store
               <span className="font-mono text-xs opacity-80">→</span>
             </a>
             <a
