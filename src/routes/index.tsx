@@ -1,26 +1,48 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Nav } from "@/components/Nav";
+import { Hero } from "@/components/Hero";
+import { HowItWorks } from "@/components/HowItWorks";
+import { AiEngine } from "@/components/AiEngine";
+import { FeatureBento } from "@/components/FeatureBento";
+import { Testimonials } from "@/components/Testimonials";
+import { FinalCta } from "@/components/FinalCta";
+import { Footer } from "@/components/Footer";
 
 export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title: "Tadado — The AI Word Game for Real-Life Chaos" },
+      {
+        name: "description",
+        content:
+          "Tadado is the AI-powered social word game that generates infinite decks for your friend group. Fast rounds. No repeats. Pure chaos.",
+      },
+      { property: "og:title", content: "Tadado — The AI Word Game for Real-Life Chaos" },
+      {
+        property: "og:description",
+        content:
+          "AI-generated party decks for the group chat era. Explain without saying. Laugh until you can't.",
+      },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ],
+  }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. For sites with multiple pages (About, Services, Contact, etc.),
-// create separate route files (about.tsx, services.tsx, contact.tsx) — don't put all pages in this file.
-function PlaceholderIndex() {
+function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
+    <div className="min-h-screen bg-background text-foreground selection:bg-primary/20">
+      <Nav />
+      <main>
+        <Hero />
+        <HowItWorks />
+        <AiEngine />
+        <FeatureBento />
+        <Testimonials />
+        <FinalCta />
+      </main>
+      <Footer />
     </div>
   );
-}
-
-function Index() {
-  return <PlaceholderIndex />;
 }
