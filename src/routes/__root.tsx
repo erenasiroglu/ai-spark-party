@@ -74,17 +74,40 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
   head: () => ({
     meta: [
       { charSet: "utf-8" },
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Tadado" },
-      { name: "description", content: "Tadado is an AI-powered social word guessing game for multiplayer fun." },
+      { name: "viewport", content: "width=device-width, initial-scale=1, viewport-fit=cover" },
+      { title: "Tadado — AI Taboo Game | Tabu Oyunu & Party Word Game App" },
+      {
+        name: "description",
+        content:
+          "The taboo game with infinite cards: 7 decks for $0.99 and AI that builds custom decks from your topics. The best Heads Up & Nebuu alternative. No ads, no subscription.",
+      },
+      {
+        name: "keywords",
+        content:
+          "taboo game, taboo app, tabu oyunu, tabu, heads up alternative, nebuu alternatifi, party game app, word game with friends, arkadaşlarla oynanacak mobil oyunlar, forbidden words game, AI word game, kelime oyunu",
+      },
+      { name: "apple-itunes-app", content: "app-id=6753135485" },
+      { name: "theme-color", content: "#2B1340" },
       { property: "og:site_name", content: "Tadado" },
-      { property: "og:title", content: "Tadado" },
-      { property: "og:description", content: "Tadado is an AI-powered social word guessing game for multiplayer fun." },
+      { property: "og:title", content: "Tadado — AI Taboo Game | Tabu Oyunu & Party Word Game App" },
+      {
+        property: "og:description",
+        content:
+          "Describe the word without the forbidden ones. 7 decks for $0.99, infinite more with AI. No ads, no subscription.",
+      },
       { property: "og:type", content: "website" },
       { property: "og:url", content: `${SITE_URL}/` },
+      { property: "og:image", content: `${SITE_URL}/og-image.jpg` },
+      { property: "og:image:width", content: "1200" },
+      { property: "og:image:height", content: "630" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Tadado" },
-      { name: "twitter:description", content: "Tadado is an AI-powered social word guessing game for multiplayer fun." },
+      { name: "twitter:title", content: "Tadado — AI Taboo Game | Tabu Oyunu & Party Word Game App" },
+      {
+        name: "twitter:description",
+        content:
+          "Describe the word without the forbidden ones. 7 decks for $0.99, infinite more with AI. No ads, no subscription.",
+      },
+      { name: "twitter:image", content: `${SITE_URL}/og-image.jpg` },
     ],
     links: [
       { rel: "icon", href: favicon, type: "image/x-icon" },

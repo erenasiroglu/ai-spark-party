@@ -11,7 +11,7 @@ export function FeatureBento() {
             Built for the <span className="text-primary">group chat</span>, played at the table.
           </h2>
           <span className="font-mono text-[10px] uppercase tracking-widest text-foreground/50">
-            §04 / Features
+            §08 / Features
           </span>
         </div>
 
@@ -39,37 +39,37 @@ export function FeatureBento() {
             </div>
           </div>
 
-          <div className="p-10 bg-primary text-white rounded-3xl flex flex-col justify-between min-h-[420px] hover:-translate-y-1 transition-transform duration-500">
+          <div className="p-10 bg-primary text-primary-foreground rounded-3xl flex flex-col justify-between min-h-[420px] hover:-translate-y-1 transition-transform duration-500">
             <div>
-              <span className="font-mono text-[10px] uppercase tracking-widest text-white/70">
+              <span className="font-mono text-[10px] uppercase tracking-widest opacity-70">
                 Social
               </span>
               <h3 className="text-3xl md:text-4xl font-bold tracking-tight mt-2 leading-[0.95]">
                 Viral by design.
               </h3>
-              <p className="text-white/80 mt-4 text-pretty">
+              <p className="opacity-80 mt-4 text-pretty">
                 Every round produces a quote screenshot. The kind that ends up pinned in your group
                 chat at 2am.
               </p>
             </div>
             <div className="space-y-3 mt-8">
-              <div className="bg-white/15 backdrop-blur-sm rounded-2xl p-4 text-sm font-medium">
+              <div className="bg-black/10 backdrop-blur-sm rounded-2xl p-4 text-sm font-medium">
                 "It's <span className="line-through opacity-60">crunchy</span>… you eat it… in
                 Italy?"
               </div>
-              <div className="bg-white/15 backdrop-blur-sm rounded-2xl p-4 text-sm font-medium ml-8">
+              <div className="bg-black/10 backdrop-blur-sm rounded-2xl p-4 text-sm font-medium ml-8">
                 "BISCOTTI?!"
               </div>
             </div>
           </div>
 
-          <div className="p-10 bg-foreground text-background rounded-3xl flex flex-col justify-between min-h-[280px] hover:-translate-y-1 transition-transform duration-500">
-            <span className="font-mono text-[10px] uppercase tracking-widest text-zinc-500">
+          <div className="p-10 bg-accent text-accent-foreground rounded-3xl flex flex-col justify-between min-h-[280px] hover:-translate-y-1 transition-transform duration-500">
+            <span className="font-mono text-[10px] uppercase tracking-widest opacity-70">
               60s rounds
             </span>
             <div>
               <h3 className="text-3xl font-bold tracking-tight">Faster than a meme.</h3>
-              <p className="text-zinc-400 mt-3 text-sm text-pretty">
+              <p className="opacity-80 mt-3 text-sm text-pretty">
                 Sub-minute turns keep the energy up and the awkward silences out.
               </p>
             </div>
@@ -89,13 +89,13 @@ export function FeatureBento() {
 
           <div className="p-10 bg-surface border border-border rounded-3xl flex flex-col justify-between min-h-[280px] hover:-translate-y-1 transition-transform duration-500">
             <span className="font-mono text-[10px] uppercase tracking-widest text-foreground/50">
-              Custom themes
+              Privacy
             </span>
             <div>
-              <h3 className="text-3xl font-bold tracking-tight">Your world. Your words.</h3>
+              <h3 className="text-3xl font-bold tracking-tight">Zero data collected.</h3>
               <p className="text-foreground/60 mt-3 text-sm text-pretty">
-                Inside jokes, fandoms, your roommate's love life. If you can prompt it, you can play
-                it.
+                No accounts, no tracking, nothing harvested. Verified on the App Store: data not
+                collected.
               </p>
             </div>
           </div>

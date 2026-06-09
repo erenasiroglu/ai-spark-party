@@ -24,7 +24,7 @@ export function Testimonials() {
     <section className="py-32 bg-background">
       <div ref={ref} className="reveal-on-scroll mx-auto max-w-7xl px-6">
         <span className="font-mono text-[10px] uppercase tracking-widest text-foreground/50">
-          §05 / Field reports
+          §09 / Field reports
         </span>
         <div className="grid md:grid-cols-3 gap-6 mt-10">
           {QUOTES.map((q) => (

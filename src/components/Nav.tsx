@@ -10,18 +10,19 @@ export function Nav() {
           <img src={tadoHeader} alt="Tadado" className="size-8 object-contain" />
           <span className="font-extrabold text-xl tracking-tighter">TADADO</span>
         </Link>
-        <div className="hidden md:flex gap-8 text-sm font-medium text-foreground/50">
+        <div className="hidden md:flex gap-8 text-sm font-medium text-foreground/60">
           <a href="#game" className="hover:text-foreground transition-colors">The Game</a>
+          <a href="#decks" className="hover:text-foreground transition-colors">Decks</a>
           <a href="#engine" className="hover:text-foreground transition-colors">AI Engine</a>
-          <a href="#features" className="hover:text-foreground transition-colors">Features</a>
+          <a href="#pricing" className="hover:text-foreground transition-colors">Pricing</a>
         </div>
         <a
           href={APP_STORE_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-foreground text-background px-5 py-2 rounded-full text-sm font-semibold hover:bg-primary transition-colors"
+          className="bg-primary text-primary-foreground px-5 py-2 rounded-full text-sm font-bold hover:scale-[0.97] transition-transform"
         >
-          Download on App Store
+          Get it $0.99
         </a>
       </div>
     </nav>

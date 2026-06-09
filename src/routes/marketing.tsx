@@ -34,7 +34,7 @@ function MarketingPage() {
         </p>
         <p>
           Unlike static card games, Tadado generates infinite custom decks from any theme — inside jokes, fandoms,
-          office gossip, or niche topics — in seconds.
+          office gossip, or niche topics in seconds.
         </p>
       </section>
 
@@ -43,7 +43,7 @@ function MarketingPage() {
         <ul className="list-disc pl-5 space-y-2">
           <li>AI-generated decks tailored to any prompt or vibe</li>
           <li>Fast 60-second rounds built for social play</li>
-          <li>Mobile-first design — one tap to join, no account required for basic play</li>
+          <li>Mobile-first design  one tap to join, no account required for basic play</li>
           <li>Optional theme deck packs and premium unlocks via In-App Purchase (Non-Consumable)</li>
           <li>Designed for groups of friends, parties, and remote hangouts</li>
         </ul>

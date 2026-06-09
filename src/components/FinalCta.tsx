@@ -14,33 +14,32 @@ export function FinalCta() {
             aria-hidden
             className="absolute inset-0 w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-foreground/70" />
-          <div className="relative px-8 py-24 md:py-32 md:px-16 text-background">
-            <span className="font-mono text-[10px] uppercase tracking-widest text-background/60">
-              §06 / Press start
+          <div className="absolute inset-0 bg-background/85" />
+          <div className="relative px-8 py-24 md:py-32 md:px-16 text-foreground">
+            <span className="font-mono text-[10px] uppercase tracking-widest text-foreground/60">
+              §11 / Press start
             </span>
             <h2 className="mt-6 text-5xl md:text-7xl font-extrabold tracking-tighter leading-[0.95] max-w-3xl">
-              Ready to start <span className="text-primary">the chaos?</span>
+              Tonight's game night, <span className="text-primary">sorted for $0.99.</span>
             </h2>
-            <p className="mt-6 text-lg text-background/70 max-w-xl text-pretty">
-              One link. Five friends. Forty AI-generated cards. The next 12 minutes are going to be
-              very loud.
+            <p className="mt-6 text-lg text-foreground/70 max-w-xl text-pretty">
+              Seven decks, AI that builds infinite more, and one phone passed around the table. The
+              next 12 minutes are going to be very loud.
             </p>
             <div className="mt-10 flex flex-wrap gap-3">
               <a
                 href={APP_STORE_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-primary text-white px-6 py-3.5 rounded-full text-sm font-semibold hover:scale-[0.98] transition-transform"
+                className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-7 py-4 rounded-full text-sm font-bold hover:scale-[0.98] transition-transform shadow-[0_8px_40px_-8px] shadow-primary/50"
               >
-                Download on App Store
-                <span className="font-mono text-xs opacity-80">→</span>
+                Download on App Store $0.99
               </a>
               <a
-                href="#engine"
-                className="inline-flex items-center gap-2 bg-background/10 text-background border border-background/20 px-6 py-3.5 rounded-full text-sm font-semibold hover:bg-background/20 transition-colors backdrop-blur-sm"
+                href="#decks"
+                className="inline-flex items-center gap-2 bg-white/10 text-foreground border border-white/20 px-7 py-4 rounded-full text-sm font-semibold hover:bg-white/20 transition-colors backdrop-blur-sm"
               >
-                See sample decks
+                See the decks
               </a>
             </div>
           </div>

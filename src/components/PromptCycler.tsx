@@ -15,18 +15,20 @@ export function PromptCycler() {
     return () => clearInterval(id);
   }, []);
   return (
-    <div className="p-6 bg-zinc-900 rounded-2xl border border-zinc-800 space-y-4">
-      <div className="font-mono text-xs text-zinc-500 uppercase tracking-widest">Prompt Input</div>
-      <div className="text-xl font-medium text-zinc-200 min-h-[1.75rem]">
+    <div className="p-6 bg-black/30 rounded-2xl border border-border space-y-4">
+      <div className="font-mono text-xs text-foreground/50 uppercase tracking-widest">
+        Prompt Input
+      </div>
+      <div className="text-xl font-medium min-h-[1.75rem]">
         <span key={i} className="inline-block animate-reveal">
           {PROMPTS[i]}
         </span>
       </div>
-      <div className="h-1 w-full bg-zinc-800 rounded-full overflow-hidden">
+      <div className="h-1 w-full bg-white/10 rounded-full overflow-hidden">
         <div key={i} className="h-full bg-primary animate-loading-bar" />
       </div>
-      <div className="font-mono text-[10px] text-zinc-500 uppercase tracking-widest pt-1">
-        Generating 40 cards · forbidden words · scoring rules
+      <div className="font-mono text-[10px] text-foreground/50 uppercase tracking-widest pt-1">
+        Generating cards · forbidden words · scoring rules
       </div>
     </div>
   );

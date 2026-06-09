@@ -39,47 +39,50 @@
 
 :root {
   --radius: 1rem;
-  --background: oklch(0.984 0.003 90);
-  --foreground: oklch(0.18 0 0);
-  --surface: oklch(1 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.18 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.18 0 0);
-  --primary: oklch(0.42 0.19 292);
-  --primary-foreground: oklch(1 0 0);
-  --secondary: oklch(0.96 0.005 90);
-  --secondary-foreground: oklch(0.18 0 0);
-  --muted: oklch(0.55 0 0);
-  --muted-foreground: oklch(0.55 0 0);
-  --accent: oklch(0.96 0.005 90);
-  --accent-foreground: oklch(0.18 0 0);
+  /* Tadado app brand: deep purple stage, gold spotlight, crimson heat */
+  --background: oklch(0.23 0.065 310);
+  --foreground: oklch(0.96 0.025 85);
+  --surface: oklch(0.28 0.075 308);
+  --card: oklch(0.28 0.075 308);
+  --card-foreground: oklch(0.96 0.025 85);
+  --popover: oklch(0.28 0.075 308);
+  --popover-foreground: oklch(0.96 0.025 85);
+  --primary: oklch(0.83 0.16 80);
+  --primary-foreground: oklch(0.24 0.07 310);
+  --secondary: oklch(0.33 0.08 306);
+  --secondary-foreground: oklch(0.96 0.025 85);
+  --muted: oklch(0.74 0.04 310);
+  --muted-foreground: oklch(0.74 0.04 310);
+  --accent: oklch(0.56 0.21 12);
+  --accent-foreground: oklch(0.98 0.01 85);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(1 0 0);
-  --border: oklch(0.18 0 0 / 0.08);
-  --input: oklch(0.18 0 0 / 0.08);
-  --ring: oklch(0.42 0.19 292);
+  --border: oklch(1 0 0 / 0.12);
+  --input: oklch(1 0 0 / 0.12);
+  --ring: oklch(0.83 0.16 80);
 }
 
 .dark {
-  --background: oklch(0.18 0 0);
-  --foreground: oklch(0.984 0.003 90);
-  --surface: oklch(0.22 0 0);
-  --card: oklch(0.22 0 0);
-  --card-foreground: oklch(0.984 0.003 90);
-  --popover: oklch(0.22 0 0);
-  --popover-foreground: oklch(0.984 0.003 90);
-  --primary: oklch(0.42 0.19 292);
-  --primary-foreground: oklch(1 0 0);
-  --secondary: oklch(0.27 0 0);
-  --secondary-foreground: oklch(0.984 0.003 90);
-  --muted: oklch(0.7 0 0);
-  --muted-foreground: oklch(0.7 0 0);
-  --accent: oklch(0.27 0 0);
-  --accent-foreground: oklch(0.984 0.003 90);
-  --border: oklch(1 0 0 / 0.1);
-  --input: oklch(1 0 0 / 0.1);
-  --ring: oklch(0.42 0.19 292);
+  --background: oklch(0.23 0.065 310);
+  --foreground: oklch(0.96 0.025 85);
+  --surface: oklch(0.28 0.075 308);
+  --card: oklch(0.28 0.075 308);
+  --card-foreground: oklch(0.96 0.025 85);
+  --popover: oklch(0.28 0.075 308);
+  --popover-foreground: oklch(0.96 0.025 85);
+  --primary: oklch(0.83 0.16 80);
+  --primary-foreground: oklch(0.24 0.07 310);
+  --secondary: oklch(0.33 0.08 306);
+  --secondary-foreground: oklch(0.96 0.025 85);
+  --muted: oklch(0.74 0.04 310);
+  --muted-foreground: oklch(0.74 0.04 310);
+  --accent: oklch(0.56 0.21 12);
+  --accent-foreground: oklch(0.98 0.01 85);
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(1 0 0);
+  --border: oklch(1 0 0 / 0.12);
+  --input: oklch(1 0 0 / 0.12);
+  --ring: oklch(0.83 0.16 80);
 }
 
 @keyframes reveal-up {
@@ -98,6 +101,16 @@
   100% { width: 100%; opacity: 0; }
 }
 
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-14px); }
+}
+
+@keyframes glow-pulse {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 0.9; }
+}
+
 @layer base {
   * { border-color: var(--color-border); }
   html { font-family: 'Inter', system-ui, sans-serif; }
@@ -112,7 +125,14 @@
   .animate-reveal { animation: reveal-up 0.9s var(--ease-out-expo) both; }
   .animate-strike { animation: strike-through 0.6s var(--ease-out-expo) forwards; width: 0; }
   .animate-loading-bar { animation: loading-bar 2.6s ease-in-out infinite; }
+  .animate-float-slow { animation: float-slow 7s ease-in-out infinite; }
+  .animate-glow { animation: glow-pulse 5s ease-in-out infinite; }
   .font-mono { font-family: 'JetBrains Mono', ui-monospace, monospace; }
   .reveal-on-scroll { opacity: 0; transform: translateY(24px); transition: opacity 0.9s var(--ease-out-expo), transform 0.9s var(--ease-out-expo); }
   .reveal-on-scroll.is-visible { opacity: 1; transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-reveal, .animate-float-slow, .animate-glow { animation: none; }
+  .reveal-on-scroll { opacity: 1; transform: none; transition: none; }
 }

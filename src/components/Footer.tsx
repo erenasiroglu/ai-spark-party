@@ -3,7 +3,7 @@ import tadoHeader from "@/assets/tado-header.png";
 
 export function Footer() {
   return (
-    <footer className="py-24 border-t border-border">
+    <footer className="pt-24 pb-40 md:pb-24 border-t border-border">
       <div className="mx-auto max-w-7xl px-6 grid md:grid-cols-4 gap-12">
         <div className="col-span-2">
           <Link to="/" className="flex items-center gap-2 mb-6 w-fit">
@@ -11,15 +11,17 @@ export function Footer() {
             <span className="font-extrabold text-lg tracking-tighter uppercase">Tadado</span>
           </Link>
           <p className="text-foreground/50 text-sm max-w-xs">
-            The world's first AI-generated party game for the modern digital group.
+            The AI word game with infinite decks. $0.99 worldwide, ₺29.99 in Türkiye one-time, no
+            subscription.
           </p>
         </div>
         <div>
           <h4 className="font-bold mb-4">Product</h4>
           <ul className="space-y-2 text-sm text-foreground/50">
             <li><a href="/#game" className="hover:text-primary transition-colors">How to Play</a></li>
-            <li><a href="/#engine" className="hover:text-primary transition-colors">Deck Engine</a></li>
-            <li><a href="/#features" className="hover:text-primary transition-colors">Features</a></li>
+            <li><a href="/#decks" className="hover:text-primary transition-colors">Decks</a></li>
+            <li><a href="/#engine" className="hover:text-primary transition-colors">AI Engine</a></li>
+            <li><a href="/#pricing" className="hover:text-primary transition-colors">Pricing</a></li>
           </ul>
         </div>
         <div>

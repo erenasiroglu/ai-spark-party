@@ -1,63 +1,86 @@
-import { TadadoCard } from "./TadadoCard";
+import { PhoneShot } from "./PhoneShot";
+import { useParallax } from "@/hooks/useCinematic";
 import { APP_STORE_URL } from "@/lib/site";
+import homeShot from "@/assets/shot-1128.jpg";
+import gameShot from "@/assets/shot-1120.jpg";
+
+const STATS = [
+  { value: "7+", label: "Curated decks" },
+  { value: "∞", label: "AI-built cards" },
+  { value: "$0.99", label: "One-time. Everything." },
+  { value: "0", label: "Data collected" },
+];
 
 export function Hero() {
+  const frontRef = useParallax<HTMLDivElement>(0.06);
+  const backRef = useParallax<HTMLDivElement>(0.12);
+
   return (
-    <header className="relative pt-20 pb-32 overflow-hidden">
+    <header className="relative pt-20 pb-24 overflow-hidden">
+      {/* Cinematic stage lighting */}
+      <div className="pointer-events-none absolute inset-0 -z-10">
+        <div className="absolute -top-40 left-1/4 h-[34rem] w-[34rem] rounded-full bg-primary/15 blur-[120px] animate-glow" />
+        <div className="absolute top-1/3 -right-32 h-[28rem] w-[28rem] rounded-full bg-accent/20 blur-[120px] animate-glow [animation-delay:2s]" />
+        <div className="absolute bottom-0 -left-32 h-[24rem] w-[24rem] rounded-full bg-white/5 blur-[100px]" />
+      </div>
+
       <div className="mx-auto max-w-7xl px-6 grid lg:grid-cols-12 gap-16 items-center">
         <div className="lg:col-span-7 flex flex-col items-start text-left">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-bold tracking-widest uppercase mb-8 animate-reveal">
-            <span className="size-1.5 bg-primary rounded-full animate-pulse" />
-            The future of social play
-          </div>
-          <h1 className="text-6xl md:text-7xl lg:text-[7.5rem] font-extrabold tracking-tighter text-balance leading-[0.88] mb-8 animate-reveal [animation-delay:120ms]">
-            Words are the <span className="text-primary">new</span> playground.
+          <h1 className="text-6xl md:text-7xl lg:text-[7rem] font-extrabold tracking-tighter text-balance leading-[0.88] mb-8 animate-reveal">
+            The taboo game that <span className="text-primary">never runs out</span> of cards.
           </h1>
-          <p className="max-w-xl text-lg md:text-xl text-foreground/60 text-pretty mb-10 animate-reveal [animation-delay:240ms]">
-            Tadado is the AI-powered party game that generates infinite decks for your friend
-            group. Explain without saying. Laugh until you can't. Never play the same round twice.
+          <p className="max-w-xl text-lg md:text-xl text-foreground/70 text-pretty mb-10 animate-reveal [animation-delay:240ms]">
+            Describe the word without saying the obvious ones. Seven hand-crafted decks out of the
+            box then type any topic and Tadado's AI builds a deck that's yours alone. One phone,
+            two teams, zero boring rounds.
           </p>
           <div className="flex flex-wrap gap-3 animate-reveal [animation-delay:340ms]">
             <a
               href={APP_STORE_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-foreground text-background px-6 py-3.5 rounded-full text-sm font-semibold hover:bg-primary transition-colors"
+              className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-7 py-4 rounded-full text-sm font-bold hover:scale-[0.98] transition-transform shadow-[0_8px_40px_-8px] shadow-primary/50"
             >
-              Download on App Store
-              <span className="font-mono text-xs opacity-80">→</span>
+              Get Tadado for $0.99
             </a>
             <a
-              href="#engine"
-              className="inline-flex items-center gap-2 bg-transparent text-foreground border border-border px-6 py-3.5 rounded-full text-sm font-semibold hover:bg-surface transition-colors"
+              href="#decks"
+              className="inline-flex items-center gap-2 bg-white/5 text-foreground border border-border px-7 py-4 rounded-full text-sm font-semibold hover:bg-white/10 transition-colors"
             >
-              See how it works
+              Explore the decks
             </a>
           </div>
-          <div className="mt-12 flex items-center gap-6 animate-reveal [animation-delay:460ms]">
-            <div className="flex -space-x-2">
-              <div className="size-8 rounded-full bg-zinc-300 border-2 border-background" />
-              <div className="size-8 rounded-full bg-zinc-400 border-2 border-background" />
-              <div className="size-8 rounded-full bg-primary border-2 border-background" />
-              <div className="size-8 rounded-full bg-foreground border-2 border-background" />
-            </div>
-            <span className="font-mono text-[10px] uppercase tracking-widest text-foreground/60">
-              50,000+ rounds played this week
-            </span>
+          <div className="mt-14 grid grid-cols-2 sm:grid-cols-4 gap-8 animate-reveal [animation-delay:460ms]">
+            {STATS.map((s) => (
+              <div key={s.label}>
+                <div className="text-3xl font-extrabold tracking-tighter text-primary">
+                  {s.value}
+                </div>
+                <div className="font-mono text-[10px] uppercase tracking-widest text-foreground/50 mt-1">
+                  {s.label}
+                </div>
+              </div>
+            ))}
           </div>
         </div>
 
-        <div className="lg:col-span-5 flex justify-center lg:justify-end animate-reveal [animation-delay:380ms]">
-          <div className="relative">
-            <div className="absolute -inset-8 bg-primary/10 blur-3xl rounded-full" />
-            <div className="relative -rotate-2">
-              <TadadoCard
-                index="082/AI"
-                word="DOPAMINE"
-                forbidden={["Brain", "Pleasure", "Reward"]}
-                points={15}
+        <div className="lg:col-span-5 relative flex justify-center lg:justify-end animate-reveal [animation-delay:380ms]">
+          <div className="relative w-[17rem] md:w-[19rem]">
+            <div className="absolute -inset-10 bg-primary/15 blur-3xl rounded-full" />
+            <div ref={backRef} className="absolute -left-24 top-16 w-[15rem] hidden md:block">
+              <PhoneShot
+                src={gameShot}
+                alt="Tadado gameplay — describe AMONG US without saying Impostor, Sus, Red, Vent or Crewmate"
+                className="-rotate-6 opacity-90"
               />
-              <div className="absolute -right-4 -top-4 -z-10 h-full w-full rotate-6 rounded-[2rem] bg-foreground/5 border border-border" />
+            </div>
+            <div ref={frontRef} className="relative">
+              <PhoneShot
+                src={homeShot}
+                alt="Tadado home screen — choose a deck: Classic, Travel, Night Games and more"
+                className="rotate-2"
+                eager
+              />
             </div>
           </div>
         </div>
