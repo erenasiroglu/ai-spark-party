@@ -1,6 +1,6 @@
 export const SITE_URL = "https://www.tadado.app";
 export const APP_STORE_URL =
-  "https://apps.apple.com/tr/app/tadado-ai-word-guessing-game/id6753135485";
+  "https://apps.apple.com/us/app/tadado-ai-word-game-2026/id6753135485";
 export const SUPPORT_EMAIL = "erenasiroglu1@gmail.com";
 
 /** Official Apple links referenced in legal and support pages. */
