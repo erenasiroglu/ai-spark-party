@@ -54,7 +54,7 @@ export function CinematicShowcase() {
             One round, <span className="text-primary">frame by frame.</span>
           </h2>
           <span className="hidden md:block font-mono text-[10px] uppercase tracking-widest text-foreground/50">
-            §02 / Keep scrolling
+           Keep scrolling
           </span>
         </div>
         <div
