@@ -4,7 +4,7 @@ const STEPS = [
   {
     n: "01",
     title: "Pick a deck or invent one",
-    body: "Seven curated decks from Classic to Marvel, or type your own topics and let AI build a brand new one.",
+    body: "Eight different decks from Classic to Marvel, or type your own topics and let AI build a brand new one.",
   },
   {
     n: "02",

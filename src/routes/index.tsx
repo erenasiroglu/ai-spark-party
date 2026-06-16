@@ -49,7 +49,7 @@ export const Route = createFileRoute("/")({
           applicationCategory: "GameApplication",
           operatingSystem: "iOS",
           description:
-            "Tadado is an AI-powered taboo-style word guessing game (tabu oyunu) with 7 curated decks (Classic, Cinema, Travel, Sports, Night Games, Couples, Marvel) and AI-generated custom decks built from your own topics. A Heads Up and Nebuu alternative with no ads and no subscription.",
+            "Tadado is an AI-powered taboo-style word guessing game (tabu oyunu) with 8 different decks (Classic, Cinema, Travel, Sports, Night Games, Couples, Marvel) and AI-generated custom decks built from your own topics. A Heads Up and Nebuu alternative with no ads and no subscription.",
           keywords:
             "taboo game, tabu oyunu, taboo app, heads up alternative, party word game, forbidden words game, AI word game",
           image: `${SITE_URL}/og-image.jpg`,

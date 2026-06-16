@@ -5,10 +5,9 @@ import homeShot from "@/assets/shot-1128.jpg";
 import gameShot from "@/assets/shot-1120.jpg";
 
 const STATS = [
-  { value: "7+", label: "Curated decks" },
+  { value: "8+", label: "Different decks" },
   { value: "∞", label: "AI-built cards" },
   { value: "$0.99", label: "One-time. Everything." },
-  { value: "0", label: "Data collected" },
 ];
 
 export function Hero() {

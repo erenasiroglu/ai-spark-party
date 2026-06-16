@@ -3,7 +3,7 @@ import { useReveal } from "@/hooks/useReveal";
 const FAQS = [
   {
     q: "What is Tadado?",
-    a: "Tadado is a taboo-style word guessing party game for iPhone and iPad. One player describes the word on the card without saying the forbidden words below it, while their team races the 60-second clock to guess it. It ships with 7 curated decks Classic, Cinema, Travel, Sports, Night Games (+18), Couples and Marvel and an AI engine that builds unlimited custom decks from your own topics.",
+    a: "Tadado is a taboo-style word guessing party game for iPhone and iPad. One player describes the word on the card without saying the forbidden words below it, while their team races the 60-second clock to guess it. It ships with 7 different decks Classic, Cinema, Travel, Sports, Night Games (+18), Couples and Marvel and an AI engine that builds unlimited custom decks from your own topics.",
   },
   {
     q: "How do you play a taboo game on one phone?",
