@@ -82,7 +82,7 @@ export function Decks() {
             Seven decks in the box. <span className="text-primary">All unlocked, day one.</span>
           </h2>
           <span className="font-mono text-[10px] uppercase tracking-widest text-foreground/50">
-            §04 / The Decks
+            The Decks
           </span>
         </div>
 

@@ -11,7 +11,7 @@ export function FeatureBento() {
             Built for the <span className="text-primary">group chat</span>, played at the table.
           </h2>
           <span className="font-mono text-[10px] uppercase tracking-widest text-foreground/50">
-            §08 / Features
+           Features
           </span>
         </div>
 

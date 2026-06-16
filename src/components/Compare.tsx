@@ -10,7 +10,7 @@ const ROWS: { label: string; values: [string, string, string, string] }[] = [
   { label: "Personal data collected", values: ["None", "Yes", "Yes", "—"] },
 ];
 
-const COLUMNS = ["Tadado", "Heads Up!", "Nebuu", "Taboo board game"];
+const COLUMNS = ["Tadado", "Heads Up!", "Nebuu", "Taboo Board Game"];
 
 export function Compare() {
   const ref = useReveal<HTMLDivElement>();
@@ -22,7 +22,7 @@ export function Compare() {
             Every taboo game, <span className="text-primary">side by side.</span>
           </h2>
           <span className="font-mono text-[10px] uppercase tracking-widest text-foreground/50">
-            §07 / The Showdown
+             The Showdown
           </span>
         </div>
         <p className="max-w-3xl text-foreground/60 text-pretty mb-12">

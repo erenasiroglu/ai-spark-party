@@ -22,7 +22,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Play the classic taboo game (tabu oyunu) with infinite cards: 7 decks unlocked for $0.99 (₺29.99 in Türkiye) plus AI that builds custom decks from your own topics. The Heads Up & Nebuu alternative with no ads and no subscription.",
+          "Play the classic taboo game (tabu oyunu) with infinite cards: 7 decks unlocked for $0.99 (₺19.99 in Türkiye) plus AI that builds custom decks from your own topics. The Heads Up & Nebuu alternative with no ads and no subscription.",
       },
       { property: "og:title", content: "Tadado — Taboo Game with AI Cards" },
       {

@@ -31,7 +31,7 @@ export function AiEngine() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="space-y-8">
             <span className="font-mono text-[10px] uppercase tracking-widest text-foreground/50">
-              §05 / The Engine
+              The Engine
             </span>
             <h2 className="text-4xl md:text-6xl font-extrabold tracking-tighter leading-[0.95]">
               Run out of cards? <br />
@@ -54,8 +54,7 @@ export function AiEngine() {
             <div className="rounded-2xl border border-primary/30 bg-primary/10 p-5 flex flex-wrap items-center justify-between gap-4">
               <p className="text-sm font-medium">
                 <span className="font-bold text-primary">2 AI decks free</span> for every player
-                go unlimited for life for <span className="font-bold">$2.99</span>
-                <span className="text-foreground/60"> (₺149.99 in Türkiye)</span>.
+                go unlimited for life for <span className="font-bold">$1.99</span>
               </p>
               <a
                 href="#pricing"

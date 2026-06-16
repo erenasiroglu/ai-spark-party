@@ -50,10 +50,9 @@ function SecretCode() {
         <span className="text-[10px] font-medium opacity-70">{copied ? "Copied!" : "Copy"}</span>
       </button>
       <p className="mt-3 text-xs text-foreground/60 text-pretty">
-        50% off AI Lifetime — <span className="line-through opacity-60">₺149.99</span>{" "}
-        <span className="font-bold text-primary">₺74.99</span> ·{" "}
-        <span className="line-through opacity-60">$2.99</span>{" "}
-        <span className="font-bold text-primary">$1.49</span>
+        50% off AI Lifetime — <span className="line-through opacity-60">$0.99</span>{" "}
+        <span className="line-through opacity-60">$1.99</span>{" "}
+
       </p>
     </div>
   );
@@ -83,7 +82,7 @@ export function Pricing() {
       <div ref={ref} className="reveal-on-scroll mx-auto max-w-7xl px-6">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="font-mono text-[10px] uppercase tracking-widest text-foreground/50">
-            §06 / Pricing
+             Pricing
           </span>
           <h2 className="mt-4 text-4xl md:text-6xl font-extrabold tracking-tighter leading-[0.95]">
             Less than a coffee. <span className="text-primary">Funnier than most people.</span>
@@ -103,9 +102,6 @@ export function Pricing() {
               <span className="text-6xl font-extrabold tracking-tighter">$0.99</span>
               <span className="text-foreground/50 font-medium">one-time</span>
             </div>
-            <p className="font-mono text-[10px] uppercase tracking-widest text-foreground/50 mt-2">
-              ₺29.99 in Türkiye
-            </p>
             <ul className="mt-8 space-y-3 text-sm text-foreground/75">
               {GAME_FEATURES.map((f) => (
                 <li key={f} className="flex gap-3">
@@ -132,12 +128,9 @@ export function Pricing() {
               AI Lifetime
             </span>
             <div className="mt-6 flex items-baseline gap-3">
-              <span className="text-6xl font-extrabold tracking-tighter text-primary">$2.99</span>
+              <span className="text-6xl font-extrabold tracking-tighter text-primary">$1.99</span>
               <span className="text-foreground/50 font-medium">once, forever</span>
             </div>
-            <p className="font-mono text-[10px] uppercase tracking-widest text-foreground/50 mt-2">
-              ₺149.99 in Türkiye
-            </p>
             <ul className="mt-8 space-y-3 text-sm text-foreground/75">
               {AI_FEATURES.map((f) => (
                 <li key={f} className="flex gap-3">

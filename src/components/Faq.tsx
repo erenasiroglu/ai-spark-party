@@ -15,7 +15,7 @@ const FAQS = [
   },
   {
     q: "How much does Tadado cost?",
-    a: "The app is a one-time $0.99 worldwide (₺29.99 in Türkiye) and includes all 7 decks plus 2 free AI deck generations. If you fall in love with AI decks, Tadado Lifetime unlocks unlimited AI generations forever for a one-time $2.99 (₺149.99). There is no subscription and no ads ever.",
+    a: "The app is a one-time $0.99 worldwide and includes all 7 decks plus 2 free AI deck generations. If you fall in love with AI decks, Tadado Lifetime unlocks unlimited AI generations forever for a one-time $1.99 (₺149.99). There is no subscription and no ads ever.",
   },
   {
     q: "Can AI really create my own taboo cards?",
@@ -23,7 +23,7 @@ const FAQS = [
   },
   {
     q: "Is Tadado popular in Türkiye? Tabu oyunu gibi mi?",
-    a: "Tadado plays exactly like the tabu oyunu you know from game nights describe the word, dodge the forbidden ones, beat the clock. The app is priced at ₺29.99 in Türkiye, and with the AI engine you can create decks about anything: Turkish pop culture, your hometown, your group chat.",
+    a: "Tadado plays exactly like the tabu oyunu you know from game nights describe the word, dodge the forbidden ones, beat the clock. The app is priced at ₺19.99 in Türkiye, and with the AI engine you can create decks about anything: Turkish pop culture, your hometown, your group chat.",
   },
   {
     q: "Does Tadado collect my data?",
@@ -50,7 +50,7 @@ export function Faq() {
             Questions, <span className="text-primary">answered.</span>
           </h2>
           <span className="font-mono text-[10px] uppercase tracking-widest text-foreground/50">
-            §10 / FAQ
+            FAQ
           </span>
         </div>
         <div className="space-y-3">

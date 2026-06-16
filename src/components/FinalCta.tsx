@@ -17,7 +17,7 @@ export function FinalCta() {
           <div className="absolute inset-0 bg-background/85" />
           <div className="relative px-8 py-24 md:py-32 md:px-16 text-foreground">
             <span className="font-mono text-[10px] uppercase tracking-widest text-foreground/60">
-              §11 / Press start
+             Press start
             </span>
             <h2 className="mt-6 text-5xl md:text-7xl font-extrabold tracking-tighter leading-[0.95] max-w-3xl">
               Tonight's game night, <span className="text-primary">sorted for $0.99.</span>

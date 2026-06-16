@@ -28,7 +28,7 @@ export function HowItWorks() {
             From idea to chaos <span className="text-primary">in three taps.</span>
           </h2>
           <span className="font-mono text-[10px] uppercase tracking-widest text-foreground/50">
-            §03 / The Loop
+           The Loop
           </span>
         </div>
         <div className="grid md:grid-cols-3 gap-px bg-border rounded-3xl overflow-hidden border border-border">
