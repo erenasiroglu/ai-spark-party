@@ -9,7 +9,7 @@
 - AI Credits: $2.99 for 10 credits. Each credit generates one complete AI-built custom deck (about 30 cents per deck). Credits never expire.
 - Privacy: App Store label "Data Not Collected" — no accounts, no tracking.
 - Decks: Classic (included free), Cinema, Travel, Sports, Midnight Fun (+18), Couples, Marvel — plus AI-generated custom decks.
-- AI custom decks: players type up to 12 topics (or pick suggestions like Travel, Food, Family) and the AI builds a complete playable deck with target words and forbidden words, saved in "My AI Cards".
+- AI custom decks: describe the deck in a full sentence, tap quick picks (Travel, Food, Family), or use a single word. The smarter AI engine reads context and tone, then builds a complete playable deck with target words and forbidden words, saved in "My AI Cards".
 - Gameplay: pass-and-play on one phone, two teams, 60-second rounds, works fully offline.
 - Platform: iOS / iPadOS today, Android on Google Play launching within days. App Store link: https://apps.apple.com/us/app/tadado-ai-word-game-2026/id6753135485
 - Developer: Eren Nasiroglu. Copyright Tadado Game Team.

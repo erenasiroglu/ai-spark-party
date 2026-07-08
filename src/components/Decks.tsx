@@ -149,7 +149,7 @@ export function Decks() {
               </span>
             </div>
             <p className="text-sm text-foreground/70 text-pretty mt-4 mb-5">
-              Type up to 12 topics and AI builds a fully personalized deck. Inside jokes included.
+              Describe it in a sentence, tap quick picks, or use a single word — the smarter AI builds a deck that's fully yours.
             </p>
             <span className="font-mono text-[10px] uppercase tracking-widest text-primary">
               Create with AI →

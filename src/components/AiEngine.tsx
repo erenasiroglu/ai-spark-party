@@ -7,13 +7,13 @@ import aiShot from "@/assets/shot-1113.jpg";
 const FLOW = [
   {
     n: "A",
-    title: "Type your topics",
-    body: "Up to 12 of them or tap suggestions like Travel, Food, Family. Anything your group obsesses over.",
+    title: "Tell it what you want",
+    body: "Write a full sentence, tap quick picks like Travel or Food, or drop in a single word. However you describe it, the engine understands.",
   },
   {
     n: "B",
-    title: "AI builds the deck",
-    body: "Target words, forbidden words, difficulty a complete custom deck generated in seconds.",
+    title: "Smarter AI builds the deck",
+    body: "The new engine reads context, tone and difficulty — then generates target words, forbidden words and a complete playable deck in seconds.",
   },
   {
     n: "C",
@@ -34,8 +34,8 @@ export function AiEngine() {
               The Engine
             </span>
             <h2 className="text-4xl md:text-6xl font-extrabold tracking-tighter leading-[0.95]">
-              Run out of cards? <br />
-              <span className="text-primary">Impossible.</span>
+              Describe the vibe. <br />
+              <span className="text-primary">AI gets it.</span>
             </h2>
             <PromptCycler />
             <div className="space-y-6">
@@ -70,7 +70,7 @@ export function AiEngine() {
             <div ref={phoneRef} className="relative w-[17rem] md:w-[20rem]">
               <PhoneShot
                 src={aiShot}
-                alt="Tadado Create with AI — add up to 12 topics and AI builds your custom deck"
+                alt="Tadado Create with AI — describe your deck in sentences, quick picks or single words"
                 className="-rotate-2"
               />
             </div>

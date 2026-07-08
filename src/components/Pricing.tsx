@@ -20,7 +20,7 @@ const DECK_PRICES = [
 
 const AI_FEATURES = [
   "10 AI deck generations — about 30¢ per deck",
-  "Up to 12 topics per deck, fully personalized",
+  "Describe your deck in sentences, quick picks or single words",
   "Decks saved in My AI Cards, replay forever",
   "One-time purchase. Credits never expire.",
 ];

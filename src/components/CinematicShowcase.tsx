@@ -33,9 +33,9 @@ const SCENES = [
   {
     n: "04",
     title: "Then build your own.",
-    body: "Type up to 12 topics your group chat, your fandom, your inside jokes. AI turns them into a full playable deck.",
+    body: "Describe the deck in a sentence, tap quick picks, or use a single word — the smarter AI engine turns it into a full playable deck.",
     src: aiShot,
-    alt: "Tadado Create with AI screen — add up to 12 topics and generate a deck",
+    alt: "Tadado Create with AI — describe your deck in sentences, quick picks or single words",
     tone: "text-primary",
   },
 ];

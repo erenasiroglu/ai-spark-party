@@ -38,7 +38,7 @@ export function Hero() {
           </h1>
           <p className="max-w-xl text-lg md:text-xl text-foreground/70 text-pretty mb-10 animate-reveal [animation-delay:240ms]">
             Describe the word without saying the obvious ones. Download free, start playing in
-            seconds, and collect hand-crafted decks from $0.99 or type any topic and Tadado's AI
+            seconds, and collect hand-crafted decks from $0.99 — or describe any vibe and Tadado's smarter AI
             builds a deck that's yours alone. One phone, two teams, zero boring rounds.
           </p>
           <div className="flex flex-wrap gap-3 animate-reveal [animation-delay:340ms]">

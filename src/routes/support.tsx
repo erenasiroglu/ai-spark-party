@@ -57,7 +57,8 @@ function SupportPage() {
           <div>
             <h3 className="font-semibold text-foreground">How does AI deck generation work?</h3>
             <p className="mt-2">
-              Enter a theme or prompt and Tadado generates a custom deck of words with forbidden clues. Each deck is
+              Enter a theme as a sentence, tap quick suggestions, or use a single word. Tadado's smarter AI
+              engine reads the context and generates a custom deck of words with forbidden clues. Each deck is
               unique to your prompt and group.
             </p>
           </div>

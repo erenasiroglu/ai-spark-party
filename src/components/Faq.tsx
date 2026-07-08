@@ -19,7 +19,7 @@ const FAQS = [
   },
   {
     q: "Can AI really create my own taboo cards?",
-    a: "Yes. Type up to 12 topics your friend group's inside jokes, your favorite series, your city or pick from suggestions like Travel, Food and Family. Tadado's AI generates a complete playable deck with target words and forbidden words, saved forever in My AI Cards. AI Credits are $2.99 for 10 decks — about 30 cents per fully custom deck.",
+    a: "Yes. Describe the deck in a full sentence, tap quick picks like Travel or Food, or drop in a single word — the smarter AI engine reads context and tone, then generates a complete playable deck with target words and forbidden words, saved forever in My AI Cards. AI Credits are $2.99 for 10 decks — about 30 cents per fully custom deck.",
   },
   {
     q: "Is Tadado popular in Türkiye? Tabu oyunu gibi mi?",
