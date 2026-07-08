@@ -80,8 +80,8 @@ function TermsOfUsePage() {
         <h2 className="text-xl font-bold text-foreground">In-App Purchases</h2>
         <p>
           Tadado offers optional <strong>In-App Purchases</strong> through Apple&apos;s App Store. Available products
-          may include <strong>Non-Consumable In-App Purchases</strong> such as theme deck packs and premium unlocks
-          (e.g. Tadado Lifetime).
+          may include <strong>Non-Consumable In-App Purchases</strong> such as theme deck packs, and{" "}
+          <strong>Consumable In-App Purchases</strong> such as AI Credits used to generate custom decks.
         </p>
         <ul className="list-disc pl-5 space-y-2">
           <li>

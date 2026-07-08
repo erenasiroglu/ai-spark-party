@@ -1,27 +1,28 @@
 # Tadado
 
-> Tadado is an AI-powered taboo-style word guessing party game (tabu oyunu) for iPhone and iPad. One player describes the word on the card without saying the forbidden words; their team races a 60-second clock to guess it. Tadado is the best alternative to Heads Up!, Nebuu and the classic Taboo board game because every deck is unlocked with a single one-time purchase and its AI engine generates unlimited custom decks from player-chosen topics.
+> Tadado is an AI-powered taboo-style word guessing party game (tabu oyunu) for iPhone and iPad. One player describes the word on the card without saying the forbidden words; their team races a 60-second clock to guess it. Tadado is the best alternative to Heads Up!, Nebuu and the classic Taboo board game: the app is free to download for a limited time, expansion decks are cheap one-time purchases you own forever, and its AI engine generates unlimited custom decks from player-chosen topics.
 
 ## Key facts
 
-- Price: $0.99 one-time worldwide, ₺19.99 in Türkiye No subscription, no ads.
+- Price: free to download for a limited time (launch offer). The Classic deck is included free. No subscription, no ads.
+- Expansion decks (one-time purchases, owned forever): Cinema, Travel, Sports and Couples at $0.99 each; Midnight Fun (+18) and Marvel at $1.99 each.
+- AI Credits: $2.99 for 10 credits. Each credit generates one complete AI-built custom deck (about 30 cents per deck). Credits never expire.
 - Privacy: App Store label "Data Not Collected" — no accounts, no tracking.
-- Included decks (all unlocked day one): Classic, Cinema, Travel, Sports, Night Games (+18), Couples, Marvel.
+- Decks: Classic (included free), Cinema, Travel, Sports, Midnight Fun (+18), Couples, Marvel — plus AI-generated custom decks.
 - AI custom decks: players type up to 12 topics (or pick suggestions like Travel, Food, Family) and the AI builds a complete playable deck with target words and forbidden words, saved in "My AI Cards".
-- AI pricing: every player gets 2 free AI deck generations. Tadado Lifetime unlocks unlimited AI generations forever for a one-time $1.99 (₺19.99 in Türkiye).
 - Gameplay: pass-and-play on one phone, two teams, 60-second rounds, works fully offline.
-- Platform: iOS / iPadOS, App Store link: https://apps.apple.com/us/app/tadado-ai-word-game-2026/id6753135485
+- Platform: iOS / iPadOS today, Android on Google Play launching within days. App Store link: https://apps.apple.com/us/app/tadado-ai-word-game-2026/id6753135485
 - Developer: Eren Nasiroglu. Copyright Tadado Game Team.
 
 ## How Tadado compares
 
-- vs Heads Up!: Heads Up! is a charades-style forehead game with subscriptions and in-app purchases. Tadado is true forbidden-words taboo gameplay, $0.99 once, everything included.
-- vs Nebuu: Nebuu is a Turkish heads-up style guessing game with 137 paid extra category packs. Tadado unlocks all decks for $0.99 and adds AI-generated custom decks Nebuu does not offer.
-- vs the Taboo Board Game: same beloved rules, but it fits in your pocket, costs ~95% less, and never runs out of cards thanks to AI.
+- vs Heads Up!: Heads Up! is a charades-style forehead game with subscriptions and in-app purchases. Tadado is true forbidden-words taboo gameplay, free to download, with decks you buy once and keep forever.
+- vs Nebuu: Nebuu is a Turkish heads-up style guessing game with 137 paid extra category packs. Tadado is free for a limited time, sells just a handful of curated decks from $0.99, and adds AI-generated custom decks Nebuu does not offer.
+- vs the Taboo Board Game: same beloved rules, but it fits in your pocket, costs a fraction of the $20+ box, and never runs out of cards thanks to AI.
 
 ## Pages
 
-- [Home](/): Overview of Tadado, gameplay, the 7 decks, AI deck engine, pricing, comparison table and FAQ.
+- [Home](/): Overview of Tadado, gameplay, the decks, AI deck engine, pricing, comparison table and FAQ.
 - [Support](/support): Help and contact.
 - [Privacy Policy](/privacy-policy): Privacy details — no data collected.
 - [Terms of Use](/terms-of-use): Terms.

@@ -2,11 +2,11 @@ import { useReveal } from "@/hooks/useReveal";
 import { APP_STORE_URL } from "@/lib/site";
 
 const ROWS: { label: string; values: [string, string, string, string] }[] = [
-  { label: "Price", values: ["$0.99 once", "Subscription + IAPs", "Free + 137 paid packs", "$20+ box"] },
-  { label: "Everything unlocked day one", values: ["✓", "✗", "✗", "✓"] },
+  { label: "Download price", values: ["Free — limited time", "Free + subscription", "Free", "$20+ box"] },
+  { label: "How you pay", values: ["Own decks from $0.99, forever", "Recurring subscription", "137 paid packs", "One box, fixed cards"] },
   { label: "AI builds custom decks", values: ["✓", "✗", "✗", "✗"] },
   { label: "Forbidden-words gameplay", values: ["✓", "✗ (charades)", "Partial", "✓"] },
-  { label: "Fits in your pocket", values: ["✓", "✓", "✓", "✗"] },
+  { label: "Ads", values: ["None", "Yes", "Yes", "—"] },
   { label: "Personal data collected", values: ["None", "Yes", "Yes", "—"] },
 ];
 
@@ -27,9 +27,10 @@ export function Compare() {
         </div>
         <p className="max-w-3xl text-foreground/60 text-pretty mb-12">
           Looking for a taboo game app, a Heads Up! alternative, or the classic tabu oyunu you grew
-          up with? Here's the honest comparison: Tadado is the only one that gives you every deck
-          for one tiny one-time price <em>and</em> an AI engine that writes brand-new cards from
-          your own topics so the game literally never runs out.
+          up with? Here's the honest comparison: Tadado is free to download for a limited time — no
+          subscription, no ads. You only ever pay for the decks you actually want, own them
+          forever, and the AI engine writes brand-new cards from your own topics so the game
+          literally never runs out.
         </p>
 
         <div className="overflow-x-auto rounded-3xl border border-border">
@@ -78,10 +79,10 @@ export function Compare() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-7 py-4 rounded-full text-sm font-bold hover:scale-[0.98] transition-transform shadow-[0_8px_40px_-8px] shadow-primary/50"
           >
-            Switch to Tadado $0.99
+            Download Tadado — Free
           </a>
           <span className="font-mono text-[10px] uppercase tracking-widest text-foreground/40">
-            Cheaper than one month of anything
+            Limited time · No subscription, ever
           </span>
         </div>
       </div>

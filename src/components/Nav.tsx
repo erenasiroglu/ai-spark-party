@@ -22,7 +22,7 @@ export function Nav() {
           rel="noopener noreferrer"
           className="bg-primary text-primary-foreground px-5 py-2 rounded-full text-sm font-bold hover:scale-[0.97] transition-transform"
         >
-          Get it $0.99
+          Download Free
         </a>
       </div>
     </nav>

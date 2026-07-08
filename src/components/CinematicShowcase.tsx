@@ -9,7 +9,7 @@ const SCENES = [
   {
     n: "01",
     title: "Pick a deck.",
-    body: "Classic, Travel, Cinema, Marvel and more every deck unlocked from the first second. No paywalls mid-party.",
+    body: "Start free with Classic, then collect Travel, Cinema, Marvel and more — each one bought once, yours forever.",
     src: homeShot,
     alt: "Tadado deck selection screen with Classic and Travel decks",
     tone: "text-primary",

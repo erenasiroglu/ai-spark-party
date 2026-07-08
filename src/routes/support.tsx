@@ -105,7 +105,11 @@ function SupportPage() {
         <ul className="list-disc pl-5 space-y-2">
           <li>
             <strong>Non-Consumable In-App Purchases</strong> — deck packs and premium content that unlock permanently
-            on your Apple ID (e.g. theme decks, Tadado Lifetime)
+            on your Apple ID (e.g. theme decks)
+          </li>
+          <li>
+            <strong>Consumable In-App Purchases</strong> — AI Credits used to generate custom decks (e.g. 10 credits
+            for $2.99). Credits never expire once purchased.
           </li>
         </ul>
         <p className="text-sm text-foreground/60">

@@ -23,9 +23,9 @@ export function MobileCta() {
         className="flex items-center justify-between gap-3 bg-primary text-primary-foreground rounded-2xl px-5 py-4 shadow-[0_8px_40px_-8px] shadow-primary/60 active:scale-[0.98] transition-transform"
       >
         <div>
-          <div className="text-sm font-extrabold tracking-tight">Download Tadado $0.99</div>
+          <div className="text-sm font-extrabold tracking-tight">Download Tadado — Free</div>
           <div className="font-mono text-[9px] uppercase tracking-widest opacity-70">
-            7 decks · AI cards · No subscription
+            Limited time · AI cards · No subscription
           </div>
         </div>
         <span className="font-mono text-lg">→</span>

@@ -18,17 +18,17 @@ import { APP_STORE_URL, SITE_URL } from "@/lib/site";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Tadado — Taboo Game with AI Cards | Tabu Oyunu, Heads Up Alternative" },
+      { title: "Tadado — Free Taboo Game with AI Cards | Tabu Oyunu, Heads Up Alternative" },
       {
         name: "description",
         content:
-          "Play the classic taboo game (tabu oyunu) with infinite cards: 7 decks unlocked for $0.99 (₺19.99 in Türkiye) plus AI that builds custom decks from your own topics. The Heads Up & Nebuu alternative with no ads and no subscription.",
+          "Play the classic taboo game (tabu oyunu) free for a limited time. Classic deck included, expansion decks from $0.99, plus AI that builds custom decks from your own topics. The Heads Up & Nebuu alternative with no ads and no subscription.",
       },
-      { property: "og:title", content: "Tadado — Taboo Game with AI Cards" },
+      { property: "og:title", content: "Tadado — Free Taboo Game with AI Cards" },
       {
         property: "og:description",
         content:
-          "7 taboo decks for $0.99, infinite more with AI. Describe without the forbidden words, beat the clock, never play the same round twice.",
+          "Free for a limited time. Describe without the forbidden words, beat the clock, and let AI build infinite decks — never play the same round twice.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: `${SITE_URL}/` },
@@ -49,22 +49,34 @@ export const Route = createFileRoute("/")({
           applicationCategory: "GameApplication",
           operatingSystem: "iOS",
           description:
-            "Tadado is an AI-powered taboo-style word guessing game (tabu oyunu) with 8 different decks (Classic, Cinema, Travel, Sports, Night Games, Couples, Marvel) and AI-generated custom decks built from your own topics. A Heads Up and Nebuu alternative with no ads and no subscription.",
+            "Tadado is an AI-powered taboo-style word guessing game (tabu oyunu) with 8 different decks (Classic, Cinema, Travel, Sports, Midnight Fun, Couples, Marvel) and AI-generated custom decks built from your own topics. Free to download for a limited time. A Heads Up and Nebuu alternative with no ads and no subscription.",
           keywords:
-            "taboo game, tabu oyunu, taboo app, heads up alternative, party word game, forbidden words game, AI word game",
+            "free taboo game, taboo game, tabu oyunu, taboo app, heads up alternative, party word game, forbidden words game, AI word game",
           image: `${SITE_URL}/og-image.jpg`,
           url: `${SITE_URL}/`,
           downloadUrl: APP_STORE_URL,
           offers: [
             {
               "@type": "Offer",
-              name: "Tadado app — all decks included",
+              name: "Tadado app — free for a limited time, Classic deck included",
+              price: "0",
+              priceCurrency: "USD",
+            },
+            {
+              "@type": "Offer",
+              name: "Expansion decks — Cinema, Travel, Sports, Couples",
               price: "0.99",
               priceCurrency: "USD",
             },
             {
               "@type": "Offer",
-              name: "Tadado Lifetime — unlimited AI deck generation",
+              name: "Premium decks — Midnight Fun (+18), Marvel",
+              price: "1.99",
+              priceCurrency: "USD",
+            },
+            {
+              "@type": "Offer",
+              name: "AI Credits — 10 AI-generated custom decks",
               price: "2.99",
               priceCurrency: "USD",
             },

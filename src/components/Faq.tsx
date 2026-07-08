@@ -3,7 +3,7 @@ import { useReveal } from "@/hooks/useReveal";
 const FAQS = [
   {
     q: "What is Tadado?",
-    a: "Tadado is a taboo-style word guessing party game for iPhone and iPad. One player describes the word on the card without saying the forbidden words below it, while their team races the 60-second clock to guess it. It ships with 7 different decks Classic, Cinema, Travel, Sports, Night Games (+18), Couples and Marvel and an AI engine that builds unlimited custom decks from your own topics.",
+    a: "Tadado is a taboo-style word guessing party game for iPhone and iPad. One player describes the word on the card without saying the forbidden words below it, while their team races the 60-second clock to guess it. It's free to download for a limited time with the Classic deck included, expansion decks like Cinema, Travel, Sports, Couples, Midnight Fun (+18) and Marvel from $0.99, and an AI engine that builds unlimited custom decks from your own topics.",
   },
   {
     q: "How do you play a taboo game on one phone?",
@@ -11,19 +11,23 @@ const FAQS = [
   },
   {
     q: "Is Tadado a good alternative to Heads Up! or Nebuu?",
-    a: "Yes and it plays differently. Heads Up! is a charades-style forehead game, and Nebuu sells extra category packs one by one. Tadado is true forbidden-words taboo gameplay with every deck unlocked for a single $0.99 purchase, plus AI-generated custom decks neither of them offers. No subscription, no ads.",
+    a: "Yes and it plays differently. Heads Up! is a charades-style forehead game, and Nebuu sells extra category packs one by one. Tadado is true forbidden-words taboo gameplay, free to download for a limited time, with expansion decks from $0.99 that you buy once and own forever — plus AI-generated custom decks neither of them offers. No subscription, no ads.",
   },
   {
     q: "How much does Tadado cost?",
-    a: "The app is a one-time $0.99 worldwide and includes all 7 decks plus 2 free AI deck generations. If you fall in love with AI decks, Tadado Lifetime unlocks unlimited AI generations forever for a one-time $1.99 (₺149.99). There is no subscription and no ads ever.",
+    a: "Tadado is free to download for a limited time and includes the Classic deck. Expansion decks are one-time purchases you keep forever: Cinema, Travel, Sports and Couples are $0.99 each, Midnight Fun (+18) and Marvel are $1.99. AI Credits cost $2.99 for 10 credits — each credit generates one complete custom deck, and credits never expire. There is no subscription and no ads ever.",
   },
   {
     q: "Can AI really create my own taboo cards?",
-    a: "Yes. Type up to 12 topics your friend group's inside jokes, your favorite series, your city or pick from suggestions like Travel, Food and Family. Tadado's AI generates a complete playable deck with target words and forbidden words, saved forever in My AI Cards. Every player gets 2 free generations to try it.",
+    a: "Yes. Type up to 12 topics your friend group's inside jokes, your favorite series, your city or pick from suggestions like Travel, Food and Family. Tadado's AI generates a complete playable deck with target words and forbidden words, saved forever in My AI Cards. AI Credits are $2.99 for 10 decks — about 30 cents per fully custom deck.",
   },
   {
     q: "Is Tadado popular in Türkiye? Tabu oyunu gibi mi?",
-    a: "Tadado plays exactly like the tabu oyunu you know from game nights describe the word, dodge the forbidden ones, beat the clock. The app is priced at ₺19.99 in Türkiye, and with the AI engine you can create decks about anything: Turkish pop culture, your hometown, your group chat.",
+    a: "Tadado plays exactly like the tabu oyunu you know from game nights describe the word, dodge the forbidden ones, beat the clock. The app is currently free to download for a limited time, and with the AI engine you can create decks about anything: Turkish pop culture, your hometown, your group chat.",
+  },
+  {
+    q: "Is Tadado available on Android / Google Play?",
+    a: "Tadado is live on the App Store for iPhone and iPad now, and the Android version launches on Google Play within days. Download it free on iOS today, or check back this week for the Google Play release.",
   },
   {
     q: "Does Tadado collect my data?",

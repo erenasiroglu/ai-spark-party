@@ -53,8 +53,8 @@ export function AiEngine() {
             </div>
             <div className="rounded-2xl border border-primary/30 bg-primary/10 p-5 flex flex-wrap items-center justify-between gap-4">
               <p className="text-sm font-medium">
-                <span className="font-bold text-primary">2 AI decks free</span> for every player
-                go unlimited for life for <span className="font-bold">$1.99</span>
+                <span className="font-bold text-primary">10 AI decks for $2.99</span> — about 30¢
+                per custom deck, <span className="font-bold">yours forever</span>.
               </p>
               <a
                 href="#pricing"

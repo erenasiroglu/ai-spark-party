@@ -4,6 +4,7 @@ type Deck = {
   name: string;
   tagline: string;
   sample: string[];
+  price: string;
   badge?: string;
   style: "purple" | "gold" | "crimson";
 };
@@ -13,30 +14,35 @@ const DECKS: Deck[] = [
     name: "Classic",
     tagline: "Everything in one. The deck every party starts with.",
     sample: ["Eiffel Tower", "Pizza", "Dinosaur"],
+    price: "Included free",
     style: "gold",
   },
   {
     name: "Cinema",
     tagline: "Blockbusters, cult classics and quotable one-liners.",
     sample: ["Inception", "Oscar", "Plot Twist"],
+    price: "$0.99",
     style: "purple",
   },
   {
     name: "Travel",
     tagline: "All cities and countries describe the world.",
     sample: ["Grand Canyon", "Tokyo", "Passport"],
+    price: "$0.99",
     style: "purple",
   },
   {
     name: "Sports",
     tagline: "Derby nights, GOAT debates and last-minute goals.",
     sample: ["Hat-trick", "Olympics", "Penalty"],
+    price: "$0.99",
     style: "purple",
   },
   {
-    name: "Night Games",
+    name: "Midnight Fun",
     tagline: "After-midnight rules. Strictly for grown-ups.",
     sample: ["Truth or Dare", "Last Kiss", "Secret"],
+    price: "$1.99",
     badge: "+18",
     style: "crimson",
   },
@@ -44,12 +50,14 @@ const DECKS: Deck[] = [
     name: "Couples",
     tagline: "Date night, upgraded. Made to be played as two.",
     sample: ["First Date", "Anniversary", "Soulmate"],
+    price: "$0.99",
     style: "crimson",
   },
   {
     name: "Marvel",
     tagline: "Heroes, villains and the whole multiverse.",
     sample: ["Infinity Stone", "Wakanda", "Snap"],
+    price: "$1.99",
     style: "gold",
   },
 ];
@@ -79,7 +87,7 @@ export function Decks() {
       <div ref={ref} className="reveal-on-scroll mx-auto max-w-7xl px-6">
         <div className="flex items-end justify-between mb-16 flex-wrap gap-6">
           <h2 className="text-4xl md:text-6xl font-extrabold tracking-tighter leading-[0.95] max-w-3xl">
-            Seven decks in the box. <span className="text-primary">All unlocked, day one.</span>
+            Start free with Classic. <span className="text-primary">Collect the rest.</span>
           </h2>
           <span className="font-mono text-[10px] uppercase tracking-widest text-foreground/50">
             The Decks
@@ -105,7 +113,7 @@ export function Decks() {
                   )}
                 </div>
                 <p className="text-sm opacity-75 text-pretty mt-4 mb-5">{deck.tagline}</p>
-                <div className="flex flex-wrap gap-1.5">
+                <div className="flex flex-wrap gap-1.5 mb-5">
                   {deck.sample.map((w) => (
                     <span
                       key={w}
@@ -114,6 +122,14 @@ export function Decks() {
                       {w}
                     </span>
                   ))}
+                </div>
+                <div className="mt-auto flex items-center justify-between">
+                  <span className="font-mono text-xs font-bold uppercase tracking-widest">
+                    {deck.price}
+                  </span>
+                  <span className="font-mono text-[10px] uppercase tracking-widest opacity-60">
+                    {deck.price === "Included free" ? "with the app" : "own it forever"}
+                  </span>
                 </div>
               </div>
             );

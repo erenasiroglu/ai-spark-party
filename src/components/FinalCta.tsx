@@ -20,11 +20,11 @@ export function FinalCta() {
              Press start
             </span>
             <h2 className="mt-6 text-5xl md:text-7xl font-extrabold tracking-tighter leading-[0.95] max-w-3xl">
-              Tonight's game night, <span className="text-primary">sorted for $0.99.</span>
+              Tonight's game night, <span className="text-primary">sorted — free.</span>
             </h2>
             <p className="mt-6 text-lg text-foreground/70 max-w-xl text-pretty">
-              Seven decks, AI that builds infinite more, and one phone passed around the table. The
-              next 12 minutes are going to be very loud.
+              The app is free for a limited time — Classic deck included. One phone passed around
+              the table, and the next 12 minutes are going to be very loud.
             </p>
             <div className="mt-10 flex flex-wrap gap-3">
               <a
@@ -33,7 +33,8 @@ export function FinalCta() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-7 py-4 rounded-full text-sm font-bold hover:scale-[0.98] transition-transform shadow-[0_8px_40px_-8px] shadow-primary/50"
               >
-                Download on App Store $0.99
+                Download free — limited time
+                <span className="font-mono text-xs opacity-80">→</span>
               </a>
               <a
                 href="#decks"
@@ -42,6 +43,9 @@ export function FinalCta() {
                 See the decks
               </a>
             </div>
+            <p className="mt-6 font-mono text-[10px] uppercase tracking-widest text-foreground/50">
+              iOS — out now · Android — landing on Google Play this week
+            </p>
           </div>
         </div>
       </div>
