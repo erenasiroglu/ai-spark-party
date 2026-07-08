@@ -11,7 +11,7 @@ export function Footer() {
             <span className="font-extrabold text-lg tracking-tighter uppercase">Tadado</span>
           </Link>
           <p className="text-foreground/50 text-sm max-w-xs">
-            The AI word game with infinite decks. Free to download for a limited time — no ads, no
+            The AI word game with infinite decks. Free to download for a limited time no ads, no
             subscription, decks from $0.99.
           </p>
         </div>

@@ -96,7 +96,7 @@ export function Pricing() {
             Start free. <span className="text-primary">Own what you love.</span>
           </h2>
           <p className="mt-6 text-foreground/60 text-pretty">
-            The game is free for a limited time. Pick up only the decks you'll actually play — buy
+            The game is free for a limited time. Pick up only the decks you'll actually play buy
             once, keep forever. No subscriptions, no ads, no energy bars, no tricks.
           </p>
         </div>
@@ -114,7 +114,7 @@ export function Pricing() {
               <span className="text-foreground/50 font-medium line-through">$0.99</span>
             </div>
             <p className="font-mono text-[10px] uppercase tracking-widest text-foreground/50 mt-2">
-              Launch offer — won't stay free forever
+              Launch offer won't stay free forever
             </p>
             <ul className="mt-8 space-y-3 text-sm text-foreground/75">
               {APP_FEATURES.map((f) => (
@@ -143,7 +143,7 @@ export function Pricing() {
               <span className="text-foreground/50 font-medium">each, yours forever</span>
             </div>
             <p className="font-mono text-[10px] uppercase tracking-widest text-foreground/50 mt-2">
-              Buy once — never expires, never renews
+              Buy once never expires, never renews
             </p>
             <ul className="mt-8 space-y-2.5 text-sm">
               {DECK_PRICES.map((d) => (
