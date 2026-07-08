@@ -13,7 +13,7 @@ const FLOW = [
   {
     n: "B",
     title: "Smarter AI builds the deck",
-    body: "The new engine reads context, tone and difficulty — then generates target words, forbidden words and a complete playable deck in seconds.",
+    body: "The new engine reads context, tone and difficulty then generates target words, forbidden words and a complete playable deck in seconds.",
   },
   {
     n: "C",

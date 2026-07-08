@@ -30,7 +30,7 @@ export function Hero() {
               Limited time
             </span>
             <span className="text-sm font-semibold text-foreground/90">
-              Free on the App Store — <span className="line-through opacity-50">$0.99</span>
+              Free on the App Store <span className="line-through opacity-50">$0.99</span>
             </span>
           </div>
           <h1 className="text-6xl md:text-7xl lg:text-[7rem] font-extrabold tracking-tighter text-balance leading-[0.88] mb-8 animate-reveal [animation-delay:100ms]">
@@ -38,7 +38,7 @@ export function Hero() {
           </h1>
           <p className="max-w-xl text-lg md:text-xl text-foreground/70 text-pretty mb-10 animate-reveal [animation-delay:240ms]">
             Describe the word without saying the obvious ones. Download free, start playing in
-            seconds, and collect hand-crafted decks from $0.99 — or describe any vibe and Tadado's smarter AI
+            seconds, and collect hand-crafted decks from $0.99 or describe any vibe and Tadado's smarter AI
             builds a deck that's yours alone. One phone, two teams, zero boring rounds.
           </p>
           <div className="flex flex-wrap gap-3 animate-reveal [animation-delay:340ms]">
@@ -48,7 +48,7 @@ export function Hero() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-7 py-4 rounded-full text-sm font-bold hover:scale-[0.98] transition-transform shadow-[0_8px_40px_-8px] shadow-primary/50"
             >
-              Download free — while it lasts
+              Download Free
               <span className="font-mono text-xs opacity-80">→</span>
             </a>
             <a
@@ -59,7 +59,7 @@ export function Hero() {
             </a>
           </div>
           <p className="mt-5 font-mono text-[10px] uppercase tracking-widest text-foreground/40 animate-reveal [animation-delay:400ms]">
-            iOS — out now · Android — coming to Google Play this week
+            iOS out now. Android coming to Google Play this week
           </p>
           <div className="mt-14 grid grid-cols-2 sm:grid-cols-4 gap-8 animate-reveal [animation-delay:460ms]">
             {STATS.map((s) => (
